@@ -1,0 +1,99 @@
+/* Full dark aesthetic + light aesthetic + smaller readable text */
+
+:root {
+  --ifm-color-primary: #00d4ff;          /* Neon cyan accent */
+  --ifm-background-color: #0a0a0a;       /* Deep black */
+  --ifm-font-color-base: #e0e0e0;        /* Light gray text */
+  --ifm-heading-color: #ffffff;
+  --ifm-menu-color: #cccccc;
+  --ifm-menu-color-background-active: #1e1e1e;
+  --ifm-container-width: 1200px;
+  --ifm-font-size-base: 1.05rem;         /* Smaller & readable */
+  --ifm-sidebar-width: 220px;
+  --ifm-code-background: #111111;
+}
+
+[data-theme='light'] {
+  --ifm-color-primary: #0066cc;          /* Deep blue accent */
+  --ifm-background-color: #f8f9fa;       /* Clean white-gray */
+  --ifm-font-color-base: #212529;
+  --ifm-heading-color: #000000;
+  --ifm-menu-color: #212529;
+  --ifm-menu-color-background-active: #e9ecef;
+  --ifm-code-background: #f1f3f5;
+}
+
+/* Sidebar styling */
+.theme-doc-sidebar-container {
+  background: #0f0f0f;
+  border-right: 1px solid #1e1e1e;
+}
+
+[data-theme='light'] .theme-doc-sidebar-container {
+  background: #ffffff;
+  border-right: 1px solid #dee2e6;
+}
+
+.menu__link {
+  padding: 0.65rem 1.2rem;
+  border-radius: 6px;
+  transition: all 0.2s;
+  font-size: 1.02rem;
+}
+
+.menu__link:hover,
+.menu__link--active {
+  background: var(--ifm-menu-color-background-active);
+  color: var(--ifm-color-primary);
+}
+
+/* Right TOC */
+.theme-doc-toc {
+  border-left: 1px solid #1e1e1e;
+  padding-left: 1.4rem;
+  font-size: 0.95rem;
+}
+
+[data-theme='light'] .theme-doc-toc {
+  border-left: 1px solid #dee2e6;
+}
+
+/* Main content */
+article {
+  max-width: var(--ifm-container-width);
+  margin: 0 auto;
+  padding: 2.5rem 2rem;
+  line-height: 1.8;
+}
+
+/* Code blocks */
+.prism-code {
+  border-radius: 10px;
+  padding: 1.2rem;
+  font-size: 1rem;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+  background-color: #111111 !important;
+}
+
+[data-theme='light'] .prism-code {
+  background-color: #f8f9fa !important;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+/* Hide footer & distractions */
+.footer, .pagination-nav, .theme-back-to-top-button {
+  display: none !important;
+}
+
+/* Navbar */
+.navbar {
+  background: #0a0a0a;
+  border-bottom: 1px solid #1e1e1e;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+}
+
+[data-theme='light'] .navbar {
+  background: #ffffff;
+  border-bottom: 1px solid #dee2e6;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}

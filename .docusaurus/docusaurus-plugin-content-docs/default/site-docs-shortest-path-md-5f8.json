@@ -1,0 +1,24 @@
+{
+  "id": "shortest-path",
+  "title": "DSA Shortest Path Algorithms",
+  "description": "Introduction to Shortest Path Problems",
+  "source": "@site/docs/shortest-path.md",
+  "sourceDirName": ".",
+  "slug": "/shortest-path",
+  "permalink": "/shortest-path",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/yourusername/my-dsa-notes/tree/main/docs/shortest-path.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "dsa",
+  "previous": {
+    "title": "Maximum Flow",
+    "permalink": "/maximum-flow"
+  },
+  "next": {
+    "title": "DSA Reference",
+    "permalink": "/exercises"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "time-complexity",
+  "title": "Time Complexity",
+  "description": "Time Complexity is a fundamental concept in computer science that describes the amount of computational time an algorithm takes to run as a function of the input size. It provides a theoretical estimate of the time required for an algorithm to complete, helping us understand and compare the efficiency of different algorithms.",
+  "source": "@site/docs/time-complexity.md",
+  "sourceDirName": ".",
+  "slug": "/time-complexity",
+  "permalink": "/time-complexity",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/yourusername/my-dsa-notes/tree/main/docs/time-complexity.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "dsa",
+  "previous": {
+    "title": "DSA Graphs",
+    "permalink": "/graphs"
+  },
+  "next": {
+    "title": "Minimum Spanning Tree",
+    "permalink": "/minimum-spanning-tree"
+  }
+}

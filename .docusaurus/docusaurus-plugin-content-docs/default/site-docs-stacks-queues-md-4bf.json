@@ -1,0 +1,24 @@
+{
+  "id": "stacks-queues",
+  "title": "DSA Stacks & Queues",
+  "description": "Introduction to Stacks & Queues",
+  "source": "@site/docs/stacks-queues.md",
+  "sourceDirName": ".",
+  "slug": "/stacks-queues",
+  "permalink": "/stacks-queues",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/yourusername/my-dsa-notes/tree/main/docs/stacks-queues.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "dsa",
+  "previous": {
+    "title": "DSA Linked Lists",
+    "permalink": "/linked-list"
+  },
+  "next": {
+    "title": "DSA Hash Tables",
+    "permalink": "/hash-tables"
+  }
+}

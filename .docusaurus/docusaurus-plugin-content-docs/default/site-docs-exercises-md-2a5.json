@@ -1,0 +1,20 @@
+{
+  "id": "exercises",
+  "title": "DSA Reference",
+  "description": "DSA Euclidean Algorithm",
+  "source": "@site/docs/exercises.md",
+  "sourceDirName": ".",
+  "slug": "/exercises",
+  "permalink": "/exercises",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/yourusername/my-dsa-notes/tree/main/docs/exercises.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "dsa",
+  "previous": {
+    "title": "DSA Shortest Path Algorithms",
+    "permalink": "/shortest-path"
+  }
+}

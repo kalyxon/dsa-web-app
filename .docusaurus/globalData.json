@@ -1,0 +1,88 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/",
+          "mainDocId": "intro",
+          "docs": [
+            {
+              "id": "arrays",
+              "path": "/arrays",
+              "sidebar": "dsa"
+            },
+            {
+              "id": "exercises",
+              "path": "/exercises",
+              "sidebar": "dsa"
+            },
+            {
+              "id": "graphs",
+              "path": "/graphs",
+              "sidebar": "dsa"
+            },
+            {
+              "id": "hash-tables",
+              "path": "/hash-tables",
+              "sidebar": "dsa"
+            },
+            {
+              "id": "intro",
+              "path": "/intro",
+              "sidebar": "dsa"
+            },
+            {
+              "id": "linked-list",
+              "path": "/linked-list",
+              "sidebar": "dsa"
+            },
+            {
+              "id": "maximum-flow",
+              "path": "/maximum-flow",
+              "sidebar": "dsa"
+            },
+            {
+              "id": "minimum-spanning-tree",
+              "path": "/minimum-spanning-tree",
+              "sidebar": "dsa"
+            },
+            {
+              "id": "shortest-path",
+              "path": "/shortest-path",
+              "sidebar": "dsa"
+            },
+            {
+              "id": "stacks-queues",
+              "path": "/stacks-queues",
+              "sidebar": "dsa"
+            },
+            {
+              "id": "time-complexity",
+              "path": "/time-complexity",
+              "sidebar": "dsa"
+            },
+            {
+              "id": "trees",
+              "path": "/trees",
+              "sidebar": "dsa"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "dsa": {
+              "link": {
+                "path": "/intro",
+                "label": "intro"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

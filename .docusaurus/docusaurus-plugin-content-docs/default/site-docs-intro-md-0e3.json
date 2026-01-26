@@ -1,0 +1,20 @@
+{
+  "id": "intro",
+  "title": "Welcome to DSA Notes",
+  "description": "Welcome to Kalyxon's focused DSA learning hub.",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/intro",
+  "permalink": "/intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/yourusername/my-dsa-notes/tree/main/docs/intro.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "dsa",
+  "next": {
+    "title": "Arrays",
+    "permalink": "/arrays"
+  }
+}

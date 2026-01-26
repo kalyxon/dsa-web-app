@@ -1,0 +1,24 @@
+{
+  "id": "arrays",
+  "title": "Arrays",
+  "description": "Arrays in C++",
+  "source": "@site/docs/arrays.md",
+  "sourceDirName": ".",
+  "slug": "/arrays",
+  "permalink": "/arrays",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/yourusername/my-dsa-notes/tree/main/docs/arrays.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "dsa",
+  "previous": {
+    "title": "Welcome to DSA Notes",
+    "permalink": "/intro"
+  },
+  "next": {
+    "title": "DSA Linked Lists",
+    "permalink": "/linked-list"
+  }
+}

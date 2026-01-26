@@ -1,0 +1,24 @@
+{
+  "id": "trees",
+  "title": "DSA Trees",
+  "description": "Introduction to Trees",
+  "source": "@site/docs/trees.md",
+  "sourceDirName": ".",
+  "slug": "/trees",
+  "permalink": "/trees",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/yourusername/my-dsa-notes/tree/main/docs/trees.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "dsa",
+  "previous": {
+    "title": "DSA Hash Tables",
+    "permalink": "/hash-tables"
+  },
+  "next": {
+    "title": "DSA Graphs",
+    "permalink": "/graphs"
+  }
+}

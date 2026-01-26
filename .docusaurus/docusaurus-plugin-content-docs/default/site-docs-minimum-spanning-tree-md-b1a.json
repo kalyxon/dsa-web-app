@@ -1,0 +1,24 @@
+{
+  "id": "minimum-spanning-tree",
+  "title": "Minimum Spanning Tree",
+  "description": "A Minimum Spanning Tree (MST) is a subset of edges of a connected, edge-weighted undirected graph that connects all the vertices together without any cycles and with the minimum possible total edge weight. In simpler terms, it's the most efficient way to connect all points (vertices) in a network with the least total cost (edge weights).",
+  "source": "@site/docs/minimum-spanning-tree.md",
+  "sourceDirName": ".",
+  "slug": "/minimum-spanning-tree",
+  "permalink": "/minimum-spanning-tree",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/yourusername/my-dsa-notes/tree/main/docs/minimum-spanning-tree.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "dsa",
+  "previous": {
+    "title": "Time Complexity",
+    "permalink": "/time-complexity"
+  },
+  "next": {
+    "title": "Maximum Flow",
+    "permalink": "/maximum-flow"
+  }
+}
