@@ -4,7 +4,7 @@ const { themes } = require('prism-react-renderer');
 module.exports = {
   title: 'DSA Notes',
   tagline: 'Clean & Clear Data Structures and Algorithms Notes',
-  url: 'https://Kalyxon.github.io',
+  url: 'https://kalyxon.github.io',
   baseUrl: '/markdown-web-app/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
