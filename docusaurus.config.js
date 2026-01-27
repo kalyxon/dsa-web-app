@@ -5,24 +5,24 @@ module.exports = {
   title: 'DSA Notes',
   tagline: 'Clean & Clear Data Structures and Algorithms Notes',
   url: 'https://Kalyxon.github.io',
-  baseUrl: '/', // Change to '/' if deploying to root domain (e.g. Vercel/Netlify)
+  baseUrl: '/markdown-web-app/', // ← FIXED: Must match your repo name
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
-  organizationName: 'Kalyxon', // Usually your GitHub username
-  projectName: 'my-dsa-notes',
+  organizationName: 'Kalyxon',
+  projectName: 'markdown-web-app', // ← FIXED: Must match repo name
 
   presets: [
     [
-      'classic',
+      '@docusaurus/preset-classic', // ← FIXED: Missing '@'
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/', // Makes docs the home page
-          editUrl: 'https://github.com/Kalyxon/my-dsa-notes/tree/main/',
+          editUrl: 'https://github.com/Kalyxon/markdown-web-app/tree/main/', // ← FIXED repo name
         },
-        blog: false, // We don't need a blog
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -38,14 +38,13 @@ module.exports = {
     },
     navbar: {
       hideOnScroll: false,
-      hideOnScroll: false,
       title: 'DSA Notes',
       logo: {
         alt: 'GitHub Logo',
         src: 'img/logo.png',
       },
       items: [
-        { to: '/intro', label: 'Home', position: 'left' },
+        { to: '/', label: 'Home', position: 'left' }, // ← FIXED: Changed '/intro' to '/'
       ],
     },
     footer: {
@@ -53,9 +52,9 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Kalyxon DSA Notes`,
     },
     prism: {
-      theme: themes.github,      // Light mode code theme
-      darkTheme: themes.dracula, // Dark mode code theme (very colorful and nice)
-      additionalLanguages: ['cpp', 'java', 'python', 'bash'], // Add more if needed
+      theme: themes.github,
+      darkTheme: themes.dracula,
+      additionalLanguages: ['cpp', 'java', 'python', 'bash'],
     },
   },
 };
