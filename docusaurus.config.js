@@ -5,22 +5,22 @@ module.exports = {
   title: 'DSA Notes',
   tagline: 'Clean & Clear Data Structures and Algorithms Notes',
   url: 'https://Kalyxon.github.io',
-  baseUrl: '/markdown-web-app/', // ← FIXED: Must match your repo name
+  baseUrl: '/markdown-web-app/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
   organizationName: 'Kalyxon',
-  projectName: 'markdown-web-app', // ← FIXED: Must match repo name
+  projectName: 'markdown-web-app',
 
   presets: [
     [
-      '@docusaurus/preset-classic', // ← FIXED: Missing '@'
+      '@docusaurus/preset-classic',
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          routeBasePath: '/', // Makes docs the home page
-          editUrl: 'https://github.com/Kalyxon/markdown-web-app/tree/main/', // ← FIXED repo name
+          routeBasePath: '/',
+          editUrl: 'https://github.com/Kalyxon/markdown-web-app/tree/main/',
         },
         blog: false,
         theme: {
@@ -40,11 +40,11 @@ module.exports = {
       hideOnScroll: false,
       title: 'DSA Notes',
       logo: {
-        alt: 'GitHub Logo',
+        alt: 'DSA Notes Logo',
         src: 'img/logo.png',
       },
       items: [
-        { to: '/', label: 'Home', position: 'left' }, // ← FIXED: Changed '/intro' to '/'
+        { to: '/', label: 'Home', position: 'left' },
       ],
     },
     footer: {
