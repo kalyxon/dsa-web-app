@@ -4,13 +4,13 @@ const { themes } = require('prism-react-renderer');
 module.exports = {
   title: 'DSA Notes',
   tagline: 'Clean & Clear Data Structures and Algorithms Notes',
-  url: 'https://yourusername.github.io',
+  url: 'https://Kalyxon.github.io',
   baseUrl: '/', // Change to '/' if deploying to root domain (e.g. Vercel/Netlify)
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
 
-  organizationName: 'yourusername', // Usually your GitHub username
+  organizationName: 'Kalyxon', // Usually your GitHub username
   projectName: 'my-dsa-notes',
 
   presets: [
@@ -19,8 +19,8 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          routeBasePath: '/', // Makes docs the home page (like W3Schools)
-          editUrl: 'https://github.com/yourusername/my-dsa-notes/tree/main/',
+          routeBasePath: '/', // Makes docs the home page
+          editUrl: 'https://github.com/Kalyxon/my-dsa-notes/tree/main/',
         },
         blog: false, // We don't need a blog
         theme: {
