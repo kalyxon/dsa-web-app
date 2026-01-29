@@ -40,7 +40,7 @@ module.exports = {
     },
 
     navbar: {
-      title: 'DSA Notes',
+      title: 'DSA',
       logo: {
         alt: 'DSA Logo',
         src: 'img/logo.png',
