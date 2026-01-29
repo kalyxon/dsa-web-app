@@ -4,7 +4,7 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "DSA Notes",
+  "title": "DSA",
   "tagline": "Clean & Focused Data Structures and Algorithms Notes",
   "url": "https://kalyxon.github.io",
   "baseUrl": "/markdown-web-app/",
@@ -36,7 +36,7 @@ export default {
       "respectPrefersColorScheme": true
     },
     "navbar": {
-      "title": "DSA Notes",
+      "title": "DSA",
       "logo": {
         "alt": "DSA Logo",
         "src": "img/logo.png",
