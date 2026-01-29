@@ -1,3 +1,8 @@
+---
+id: intro
+title: Intro
+---
+
 # Welcome to DSA Notes
 
 Welcome to Kalyxon's focused DSA learning hub.

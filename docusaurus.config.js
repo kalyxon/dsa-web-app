@@ -3,24 +3,26 @@ const { themes } = require('prism-react-renderer');
 
 module.exports = {
   title: 'DSA Notes',
-  tagline: 'Clean & Clear Data Structures and Algorithms Notes',
+  tagline: 'Clean & Focused Data Structures and Algorithms Notes',
   url: 'https://kalyxon.github.io',
   baseUrl: '/markdown-web-app/',
+
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+
   favicon: 'img/favicon.ico',
 
-  organizationName: 'Kalyxon',
+  organizationName: 'kalyxon',
   projectName: 'markdown-web-app',
 
   presets: [
     [
-      '@docusaurus/preset-classic',
+      'classic',
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          routeBasePath: '/',
-          editUrl: 'https://github.com/Kalyxon/markdown-web-app/tree/main/',
+          routeBasePath: '/',           // docs become root
+          editUrl: 'https://github.com/kalyxon/markdown-web-app/tree/main/',
         },
         blog: false,
         theme: {
@@ -36,21 +38,25 @@ module.exports = {
       disableSwitch: false,
       respectPrefersColorScheme: true,
     },
+
     navbar: {
-      hideOnScroll: false,
       title: 'DSA Notes',
       logo: {
-        alt: 'DSA Notes Logo',
+        alt: 'DSA Logo',
         src: 'img/logo.png',
+        href: '/intro',                // fix blank page when clicking logo
       },
       items: [
-        { to: '/', label: 'Home', position: 'left' },
+        { to: '/intro', label: 'Home', position: 'left' },
       ],
+      hideOnScroll: false,
     },
+
     footer: {
       style: 'dark',
-      copyright: `Copyright © ${new Date().getFullYear()} Kalyxon DSA Notes`,
+      copyright: `Copyright © ${new Date().getFullYear()} Kalyxon`,
     },
+
     prism: {
       theme: themes.github,
       darkTheme: themes.dracula,

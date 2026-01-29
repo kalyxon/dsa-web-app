@@ -1,7 +1,8 @@
-// sidebars.js - Clean version with all lowercase filenames
+// sidebars.js
 module.exports = {
   dsa: [
     'intro',
+
     {
       type: 'category',
       label: 'Data Structures',
@@ -15,6 +16,7 @@ module.exports = {
         'graphs',
       ],
     },
+
     {
       type: 'category',
       label: 'Algorithms',
@@ -26,6 +28,7 @@ module.exports = {
         'shortest-path',
       ],
     },
+
     {
       type: 'category',
       label: 'Reference & Practice',

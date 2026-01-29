@@ -1,4 +1,9 @@
-# DSA Trees
+---
+id: trees
+title: Trees
+---
+
+# Trees
 
 ## Introduction to Trees
 
@@ -3139,3 +3144,5 @@ Each section includes:
 - Comparison between different implementations
 
 Trees are fundamental to computer science, used in databases, file systems, compilers, networking, and artificial intelligence. Mastering these concepts is essential for efficient algorithm design and problem-solving.
+
+---

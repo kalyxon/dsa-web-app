@@ -1,4 +1,9 @@
-# DSA Hash Tables
+---
+id: hash-tables
+title: Hash Tables
+---
+
+# Hash Tables
 
 ## Introduction to Hash Tables
 
@@ -3192,6 +3197,3 @@ void demonstrateLRUCache() {
 Hash tables are one of the most important and widely used data structures in computer science. They provide the foundation for efficient data retrieval in countless applications and are essential knowledge for any serious programmer.
 
 ---
-*This completes our comprehensive DSA notes on Hash Tables, covering Hash Tables, Hash Sets, Hash Maps, implementations, performance analysis, and practical applications in C++.*
-
-

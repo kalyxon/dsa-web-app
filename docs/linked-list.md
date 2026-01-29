@@ -1,4 +1,9 @@
-# DSA Linked Lists
+---
+id: linked-list
+title: Linked list
+---
+
+# Linked Lists
 
 ## Introduction to Linked Lists
 
@@ -1981,4 +1986,3 @@ Linked Lists are fundamental dynamic data structures that form the basis for man
 Linked Lists demonstrate elegant pointer manipulation and are essential for understanding more complex data structures like trees and graphs.
 
 ---
-*This completes our comprehensive DSA notes on Linked Lists, covering theory, implementations, variations, performance analysis, and real-world applications in C++.*

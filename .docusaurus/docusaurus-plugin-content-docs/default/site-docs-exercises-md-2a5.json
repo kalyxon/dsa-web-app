@@ -1,20 +1,23 @@
 {
   "id": "exercises",
-  "title": "DSA Reference",
-  "description": "DSA Euclidean Algorithm",
+  "title": "Exercises",
+  "description": "Euclidean Algorithm",
   "source": "@site/docs/exercises.md",
   "sourceDirName": ".",
   "slug": "/exercises",
-  "permalink": "/exercises",
+  "permalink": "/markdown-web-app/exercises",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/yourusername/my-dsa-notes/tree/main/docs/exercises.md",
+  "editUrl": "https://github.com/kalyxon/markdown-web-app/tree/main/docs/exercises.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "frontMatter": {
+    "id": "exercises",
+    "title": "Exercises"
+  },
   "sidebar": "dsa",
   "previous": {
-    "title": "DSA Shortest Path Algorithms",
-    "permalink": "/shortest-path"
+    "title": "Shortest Path",
+    "permalink": "/markdown-web-app/shortest-path"
   }
 }

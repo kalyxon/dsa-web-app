@@ -1,4 +1,9 @@
-# DSA Shortest Path Algorithms
+---
+id: shortest-path
+title: Shortest Path
+---
+
+# Shortest Path Algorithms
 
 ## Introduction to Shortest Path Problems
 
@@ -2038,3 +2043,5 @@ SHORTEST PATH ALGORITHM SELECTION GUIDE:
    - **Johnson's Algorithm**: Combines Dijkstra and Bellman-Ford
 
 Shortest path algorithms are fundamental to computer science with wide-ranging applications. Understanding their properties, trade-offs, and implementations is crucial for solving real-world optimization problems efficiently.
+
+---

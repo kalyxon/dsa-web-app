@@ -1,24 +1,27 @@
 {
   "id": "linked-list",
-  "title": "DSA Linked Lists",
+  "title": "Linked list",
   "description": "Introduction to Linked Lists",
   "source": "@site/docs/linked-list.md",
   "sourceDirName": ".",
   "slug": "/linked-list",
-  "permalink": "/linked-list",
+  "permalink": "/markdown-web-app/linked-list",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/yourusername/my-dsa-notes/tree/main/docs/linked-list.md",
+  "editUrl": "https://github.com/kalyxon/markdown-web-app/tree/main/docs/linked-list.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "frontMatter": {
+    "id": "linked-list",
+    "title": "Linked list"
+  },
   "sidebar": "dsa",
   "previous": {
     "title": "Arrays",
-    "permalink": "/arrays"
+    "permalink": "/markdown-web-app/arrays"
   },
   "next": {
-    "title": "DSA Stacks & Queues",
-    "permalink": "/stacks-queues"
+    "title": "Stacks Queues",
+    "permalink": "/markdown-web-app/stacks-queues"
   }
 }

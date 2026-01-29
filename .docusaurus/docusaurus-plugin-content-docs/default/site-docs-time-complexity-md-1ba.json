@@ -5,20 +5,23 @@
   "source": "@site/docs/time-complexity.md",
   "sourceDirName": ".",
   "slug": "/time-complexity",
-  "permalink": "/time-complexity",
+  "permalink": "/markdown-web-app/time-complexity",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/yourusername/my-dsa-notes/tree/main/docs/time-complexity.md",
+  "editUrl": "https://github.com/kalyxon/markdown-web-app/tree/main/docs/time-complexity.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "frontMatter": {
+    "id": "time-complexity",
+    "title": "Time Complexity"
+  },
   "sidebar": "dsa",
   "previous": {
-    "title": "DSA Graphs",
-    "permalink": "/graphs"
+    "title": "Graphs",
+    "permalink": "/markdown-web-app/graphs"
   },
   "next": {
     "title": "Minimum Spanning Tree",
-    "permalink": "/minimum-spanning-tree"
+    "permalink": "/markdown-web-app/minimum-spanning-tree"
   }
 }

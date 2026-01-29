@@ -1,3 +1,8 @@
+---
+id: minimum-spanning-tree
+title: Minimum Spanning Tree
+---
+
 # Minimum Spanning Tree
 
 A Minimum Spanning Tree (MST) is a subset of edges of a connected, edge-weighted undirected graph that connects all the vertices together without any cycles and with the minimum possible total edge weight. In simpler terms, it's the most efficient way to connect all points (vertices) in a network with the least total cost (edge weights).
@@ -413,3 +418,5 @@ Total Weight: 2 + 3 + 5 + 6 = 16
 3. **Ignoring cycle detection**: Essential in Kruskal's algorithm
 4. **Using wrong data structures**: Choose appropriate structures for the algorithm
 5. **Not optimizing Union-Find**: Implement path compression and union by rank for efficiency
+
+---

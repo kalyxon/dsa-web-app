@@ -1,3 +1,8 @@
+---
+id: arrays
+title: Arrays
+---
+
 # Arrays
 
 ## Arrays in C++
@@ -7389,4 +7394,3 @@ Binary Search is one of the most important and efficient searching algorithms in
 Binary Search demonstrates the power of divide-and-conquer algorithms and is essential knowledge for any programmer or computer scientist.
 
 ---
-*This completes our comprehensive DSA notes covering Arrays, Sorting Algorithms (Bubble, Selection, Insertion, Quick, Counting, Radix, Merge), and Searching Algorithms (Linear, Binary). Each section includes theory, implementations, visualizations, complexity analysis, and practical applications.*

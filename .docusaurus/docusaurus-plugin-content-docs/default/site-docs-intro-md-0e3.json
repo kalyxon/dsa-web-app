@@ -1,20 +1,23 @@
 {
   "id": "intro",
-  "title": "Welcome to DSA Notes",
+  "title": "Intro",
   "description": "Welcome to Kalyxon's focused DSA learning hub.",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
-  "permalink": "/intro",
+  "permalink": "/markdown-web-app/intro",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/yourusername/my-dsa-notes/tree/main/docs/intro.md",
+  "editUrl": "https://github.com/kalyxon/markdown-web-app/tree/main/docs/intro.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "frontMatter": {
+    "id": "intro",
+    "title": "Intro"
+  },
   "sidebar": "dsa",
   "next": {
     "title": "Arrays",
-    "permalink": "/arrays"
+    "permalink": "/markdown-web-app/arrays"
   }
 }

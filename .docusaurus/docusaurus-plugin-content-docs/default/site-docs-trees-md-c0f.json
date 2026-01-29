@@ -1,24 +1,27 @@
 {
   "id": "trees",
-  "title": "DSA Trees",
+  "title": "Trees",
   "description": "Introduction to Trees",
   "source": "@site/docs/trees.md",
   "sourceDirName": ".",
   "slug": "/trees",
-  "permalink": "/trees",
+  "permalink": "/markdown-web-app/trees",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/yourusername/my-dsa-notes/tree/main/docs/trees.md",
+  "editUrl": "https://github.com/kalyxon/markdown-web-app/tree/main/docs/trees.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "frontMatter": {
+    "id": "trees",
+    "title": "Trees"
+  },
   "sidebar": "dsa",
   "previous": {
-    "title": "DSA Hash Tables",
-    "permalink": "/hash-tables"
+    "title": "Hash Tables",
+    "permalink": "/markdown-web-app/hash-tables"
   },
   "next": {
-    "title": "DSA Graphs",
-    "permalink": "/graphs"
+    "title": "Graphs",
+    "permalink": "/markdown-web-app/graphs"
   }
 }

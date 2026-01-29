@@ -1,21 +1,21 @@
-/* Full dark aesthetic + light aesthetic + smaller readable text */
+/* src/css/custom.css */
 
 :root {
-  --ifm-color-primary: #00d4ff;          /* Neon cyan accent */
-  --ifm-background-color: #0a0a0a;       /* Deep black */
-  --ifm-font-color-base: #e0e0e0;        /* Light gray text */
+  --ifm-color-primary: #00d4ff;
+  --ifm-background-color: #0a0a0a;
+  --ifm-font-color-base: #e0e0e0;
   --ifm-heading-color: #ffffff;
   --ifm-menu-color: #cccccc;
   --ifm-menu-color-background-active: #1e1e1e;
   --ifm-container-width: 1200px;
-  --ifm-font-size-base: 1.05rem;         /* Smaller & readable */
-  --ifm-sidebar-width: 220px;
+  --ifm-font-size-base: 1.05rem;
+  --ifm-sidebar-width: 220px;          /* narrower sidebar */
   --ifm-code-background: #111111;
 }
 
 [data-theme='light'] {
-  --ifm-color-primary: #0066cc;          /* Deep blue accent */
-  --ifm-background-color: #f8f9fa;       /* Clean white-gray */
+  --ifm-color-primary: #0066cc;
+  --ifm-background-color: #f8f9fa;
   --ifm-font-color-base: #212529;
   --ifm-heading-color: #000000;
   --ifm-menu-color: #212529;
@@ -23,7 +23,7 @@
   --ifm-code-background: #f1f3f5;
 }
 
-/* Sidebar styling */
+/* Sidebar */
 .theme-doc-sidebar-container {
   background: #0f0f0f;
   border-right: 1px solid #1e1e1e;
@@ -37,7 +37,6 @@
 .menu__link {
   padding: 0.65rem 1.2rem;
   border-radius: 6px;
-  transition: all 0.2s;
   font-size: 1.02rem;
 }
 
@@ -47,7 +46,7 @@
   color: var(--ifm-color-primary);
 }
 
-/* Right TOC */
+/* TOC */
 .theme-doc-toc {
   border-left: 1px solid #1e1e1e;
   padding-left: 1.4rem;
@@ -58,7 +57,7 @@
   border-left: 1px solid #dee2e6;
 }
 
-/* Main content */
+/* Content */
 article {
   max-width: var(--ifm-container-width);
   margin: 0 auto;
@@ -66,7 +65,7 @@ article {
   line-height: 1.8;
 }
 
-/* Code blocks */
+/* Code */
 .prism-code {
   border-radius: 10px;
   padding: 1.2rem;
@@ -80,7 +79,7 @@ article {
   box-shadow: 0 6px 20px rgba(0,0,0,0.1);
 }
 
-/* Hide footer & distractions */
+/* Hide extra elements */
 .footer, .pagination-nav, .theme-back-to-top-button {
   display: none !important;
 }
@@ -95,5 +94,4 @@ article {
 [data-theme='light'] .navbar {
   background: #ffffff;
   border-bottom: 1px solid #dee2e6;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
 }

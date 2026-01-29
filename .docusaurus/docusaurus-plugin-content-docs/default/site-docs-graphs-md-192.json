@@ -1,24 +1,27 @@
 {
   "id": "graphs",
-  "title": "DSA Graphs",
+  "title": "Graphs",
   "description": "Introduction to Graphs",
   "source": "@site/docs/graphs.md",
   "sourceDirName": ".",
   "slug": "/graphs",
-  "permalink": "/graphs",
+  "permalink": "/markdown-web-app/graphs",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/yourusername/my-dsa-notes/tree/main/docs/graphs.md",
+  "editUrl": "https://github.com/kalyxon/markdown-web-app/tree/main/docs/graphs.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "frontMatter": {
+    "id": "graphs",
+    "title": "Graphs"
+  },
   "sidebar": "dsa",
   "previous": {
-    "title": "DSA Trees",
-    "permalink": "/trees"
+    "title": "Trees",
+    "permalink": "/markdown-web-app/trees"
   },
   "next": {
     "title": "Time Complexity",
-    "permalink": "/time-complexity"
+    "permalink": "/markdown-web-app/time-complexity"
   }
 }

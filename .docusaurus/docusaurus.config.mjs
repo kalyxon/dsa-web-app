@@ -5,26 +5,26 @@
  */
 export default {
   "title": "DSA Notes",
-  "tagline": "Clean & Clear Data Structures and Algorithms Notes",
-  "url": "https://yourusername.github.io",
-  "baseUrl": "/",
+  "tagline": "Clean & Focused Data Structures and Algorithms Notes",
+  "url": "https://kalyxon.github.io",
+  "baseUrl": "/markdown-web-app/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
-  "organizationName": "yourusername",
-  "projectName": "my-dsa-notes",
+  "organizationName": "kalyxon",
+  "projectName": "markdown-web-app",
   "presets": [
     [
       "classic",
       {
         "docs": {
-          "sidebarPath": "/home/maya/my-dsa-notes/sidebars.js",
+          "sidebarPath": "/home/maya/markdown-web-app/sidebars.js",
           "routeBasePath": "/",
-          "editUrl": "https://github.com/yourusername/my-dsa-notes/tree/main/"
+          "editUrl": "https://github.com/kalyxon/markdown-web-app/tree/main/"
         },
         "blog": false,
         "theme": {
-          "customCss": "/home/maya/my-dsa-notes/src/css/custom.css"
+          "customCss": "/home/maya/markdown-web-app/src/css/custom.css"
         }
       }
     ]
@@ -36,11 +36,11 @@ export default {
       "respectPrefersColorScheme": true
     },
     "navbar": {
-      "hideOnScroll": false,
       "title": "DSA Notes",
       "logo": {
-        "alt": "GitHub Logo",
-        "src": "img/logo.png"
+        "alt": "DSA Logo",
+        "src": "img/logo.png",
+        "href": "/intro"
       },
       "items": [
         {
@@ -48,11 +48,12 @@ export default {
           "label": "Home",
           "position": "left"
         }
-      ]
+      ],
+      "hideOnScroll": false
     },
     "footer": {
       "style": "dark",
-      "copyright": "Copyright © 2026 Kalyxon DSA Notes",
+      "copyright": "Copyright © 2026 Kalyxon",
       "links": []
     },
     "prism": {

@@ -1,4 +1,9 @@
-# DSA Stacks & Queues
+---
+id: stacks-queues
+title: Stacks Queues
+---
+
+# Stacks & Queues
 
 ## Introduction to Stacks & Queues
 
@@ -3158,4 +3163,3 @@ void demonstrateNextGreaterElement() {
 Stacks and Queues are fundamental building blocks in computer science. Mastering them is essential for understanding more complex data structures and algorithms. They demonstrate elegant solutions to many real-world problems through simple, well-defined operations.
 
 ---
-*This completes our comprehensive DSA notes on Stacks & Queues, covering theory, implementations (array, linked list, circular), applications, performance analysis, and interview questions in C++.*

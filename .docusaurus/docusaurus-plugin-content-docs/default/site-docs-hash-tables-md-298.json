@@ -1,24 +1,27 @@
 {
   "id": "hash-tables",
-  "title": "DSA Hash Tables",
+  "title": "Hash Tables",
   "description": "Introduction to Hash Tables",
   "source": "@site/docs/hash-tables.md",
   "sourceDirName": ".",
   "slug": "/hash-tables",
-  "permalink": "/hash-tables",
+  "permalink": "/markdown-web-app/hash-tables",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/yourusername/my-dsa-notes/tree/main/docs/hash-tables.md",
+  "editUrl": "https://github.com/kalyxon/markdown-web-app/tree/main/docs/hash-tables.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "frontMatter": {
+    "id": "hash-tables",
+    "title": "Hash Tables"
+  },
   "sidebar": "dsa",
   "previous": {
-    "title": "DSA Stacks & Queues",
-    "permalink": "/stacks-queues"
+    "title": "Stacks Queues",
+    "permalink": "/markdown-web-app/stacks-queues"
   },
   "next": {
-    "title": "DSA Trees",
-    "permalink": "/trees"
+    "title": "Trees",
+    "permalink": "/markdown-web-app/trees"
   }
 }

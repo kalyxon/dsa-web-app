@@ -1,4 +1,9 @@
-# DSA Graphs
+---
+id: graphs
+title: Graphs
+---
+
+# Graphs
 
 ## Introduction to Graphs
 
@@ -4429,3 +4434,5 @@ This comprehensive guide covers all aspects of Graphs in Data Structures and Alg
    - Choose algorithm based on specific requirements
 
 Graphs are one of the most versatile and powerful data structures in computer science, with applications spanning virtually every domain. Mastering graph algorithms is essential for solving complex real-world problems efficiently.
+
+---

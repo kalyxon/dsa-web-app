@@ -1,7 +1,12 @@
+---
+id: exercises
+title: Exercises
+---
 
-# DSA Reference
 
-## DSA Euclidean Algorithm
+#  Reference
+
+## Euclidean Algorithm
 
 The Euclidean Algorithm is an efficient method for computing the greatest common divisor (GCD) of two integers. It's one of the oldest known algorithms, dating back to ancient Greece.
 
@@ -2204,3 +2209,5 @@ int main() {
 8. **Greedy Algorithms**: Make locally optimal choices, work for specific problems
 
 Each technique has its strengths and weaknesses, and choosing the right approach depends on the problem characteristics, constraints, and requirements.
+
+---

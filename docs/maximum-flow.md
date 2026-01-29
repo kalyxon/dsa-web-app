@@ -1,3 +1,8 @@
+---
+id: maximum-flow
+title: Maximum Flow
+---
+
 # Maximum Flow
 
 Maximum Flow is a fundamental problem in network theory that involves finding the maximum amount of flow that can be sent from a source node to a sink node in a flow network. A flow network is a directed graph where each edge has a capacity (maximum amount of flow it can carry) and actual flow (amount currently passing through).
@@ -820,3 +825,5 @@ Minimum Cut: {s, A, B, C} to {t} with capacity 18
 5. **Memory optimization**: Use adjacency lists instead of matrices
 
 Maximum flow algorithms are fundamental tools in computer science with wide-ranging applications from network design to combinatorial optimization. Understanding both Ford-Fulkerson and Edmonds-Karp provides a solid foundation for tackling complex flow problems.
+
+---

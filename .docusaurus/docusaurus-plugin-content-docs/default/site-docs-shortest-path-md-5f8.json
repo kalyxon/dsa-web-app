@@ -1,24 +1,27 @@
 {
   "id": "shortest-path",
-  "title": "DSA Shortest Path Algorithms",
+  "title": "Shortest Path",
   "description": "Introduction to Shortest Path Problems",
   "source": "@site/docs/shortest-path.md",
   "sourceDirName": ".",
   "slug": "/shortest-path",
-  "permalink": "/shortest-path",
+  "permalink": "/markdown-web-app/shortest-path",
   "draft": false,
   "unlisted": false,
-  "editUrl": "https://github.com/yourusername/my-dsa-notes/tree/main/docs/shortest-path.md",
+  "editUrl": "https://github.com/kalyxon/markdown-web-app/tree/main/docs/shortest-path.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "frontMatter": {
+    "id": "shortest-path",
+    "title": "Shortest Path"
+  },
   "sidebar": "dsa",
   "previous": {
     "title": "Maximum Flow",
-    "permalink": "/maximum-flow"
+    "permalink": "/markdown-web-app/maximum-flow"
   },
   "next": {
-    "title": "DSA Reference",
-    "permalink": "/exercises"
+    "title": "Exercises",
+    "permalink": "/markdown-web-app/exercises"
   }
 }

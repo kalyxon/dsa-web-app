@@ -1,73 +1,73 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/",
+      "path": "/markdown-web-app/",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/",
+          "path": "/markdown-web-app/",
           "mainDocId": "intro",
           "docs": [
             {
               "id": "arrays",
-              "path": "/arrays",
+              "path": "/markdown-web-app/arrays",
               "sidebar": "dsa"
             },
             {
               "id": "exercises",
-              "path": "/exercises",
+              "path": "/markdown-web-app/exercises",
               "sidebar": "dsa"
             },
             {
               "id": "graphs",
-              "path": "/graphs",
+              "path": "/markdown-web-app/graphs",
               "sidebar": "dsa"
             },
             {
               "id": "hash-tables",
-              "path": "/hash-tables",
+              "path": "/markdown-web-app/hash-tables",
               "sidebar": "dsa"
             },
             {
               "id": "intro",
-              "path": "/intro",
+              "path": "/markdown-web-app/intro",
               "sidebar": "dsa"
             },
             {
               "id": "linked-list",
-              "path": "/linked-list",
+              "path": "/markdown-web-app/linked-list",
               "sidebar": "dsa"
             },
             {
               "id": "maximum-flow",
-              "path": "/maximum-flow",
+              "path": "/markdown-web-app/maximum-flow",
               "sidebar": "dsa"
             },
             {
               "id": "minimum-spanning-tree",
-              "path": "/minimum-spanning-tree",
+              "path": "/markdown-web-app/minimum-spanning-tree",
               "sidebar": "dsa"
             },
             {
               "id": "shortest-path",
-              "path": "/shortest-path",
+              "path": "/markdown-web-app/shortest-path",
               "sidebar": "dsa"
             },
             {
               "id": "stacks-queues",
-              "path": "/stacks-queues",
+              "path": "/markdown-web-app/stacks-queues",
               "sidebar": "dsa"
             },
             {
               "id": "time-complexity",
-              "path": "/time-complexity",
+              "path": "/markdown-web-app/time-complexity",
               "sidebar": "dsa"
             },
             {
               "id": "trees",
-              "path": "/trees",
+              "path": "/markdown-web-app/trees",
               "sidebar": "dsa"
             }
           ],
@@ -75,7 +75,7 @@
           "sidebars": {
             "dsa": {
               "link": {
-                "path": "/intro",
+                "path": "/markdown-web-app/intro",
                 "label": "intro"
               }
             }

@@ -1,3 +1,8 @@
+---
+id: time-complexity
+title: Time Complexity
+---
+
 
 # Time Complexity
 
@@ -996,3 +1001,5 @@ void practicalTiming() {
 5. **Practical vs Theoretical**: Real-world performance depends on constants, cache, etc.
 
 Understanding time complexity is essential for writing efficient code and is a fundamental skill for every programmer and computer scientist.
+
+---
