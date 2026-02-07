@@ -47,7 +47,7 @@ module.exports = {
         href: '/intro',                // fix blank page when clicking logo
       },
       items: [
-        { to: '/intro', label: 'Home', position: 'left' },
+        { to: '/intro', label: 'Home', position: 'left' }, //introduction
       ],
       hideOnScroll: false,
     },
