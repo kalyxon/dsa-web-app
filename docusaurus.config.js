@@ -5,7 +5,7 @@ module.exports = {
   title: 'DSA',
   tagline: 'Clean & Focused Data Structures and Algorithms Notes',
   url: 'https://kalyxon.github.io',
-  baseUrl: '/markdown-web-app/',
+  baseUrl: '/',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
