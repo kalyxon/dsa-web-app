@@ -7,7 +7,7 @@ export default {
   "title": "DSA",
   "tagline": "Clean & Focused Data Structures and Algorithms Notes",
   "url": "https://kalyxon.github.io",
-  "baseUrl": "/markdown-web-app/",
+  "baseUrl": "/dsa-web-app/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
